@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Velpula</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/logo.svg" />
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/492fd5106e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("FH-24DcZWvN7TmYng");
+      })();
+    </script>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Romanian Frontend Developer with a passion for learning new skills.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Alex Farkas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <section id="landing-page" onmousemove="moveBackground(event)">
+      <nav>
+        <figure class="personal-logo--container" onclick="darkTheme()">
+          <img src="./assets/logo.svg" id="personal-logo" />
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link" onclick="toggleModal()">
+            <a
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class ="nav__link">
+            <a href = "https://velpcode.hashnode.dev/" class = "nav__link--anchor link__hover-effect link__hover-effect--black">My Blog</a>
+          </li>
+          <li class="nav__link" onclick="toggleModal()">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link click" onclick="darkTheme()">
+            <a href="#" class="nav__link--anchor"
+              ><i class="fa-solid fa-adjust fa-circle-half-stroke"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title title--secondary">
+            <span class="text--blue"> I'm Aman </span>
+          </h1>
+          <p class="header__para">
+            I'm a University student & a
+            <span class="text--blue text--bold"> Web/App Developer </span>
+            that enjoys creating & developing as a hobby
+            <br />
+            Here's a bit more
+            <span
+              class="text--blue text--bold cursor--pointer"
+              onclick="toggleModal()"
+              >about me</span
+            >.
+          </p>
+          <div class="social__links">
+            <a
+              href="https://www.linkedin.com/in/aman-velpula-9b8b3619b/""
+              class="social__link click"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/VelpCode"
+              class="social__link click"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a onclick="alertNotification()" class="social__link click cursor__hover">
+              <i class="fa-solid fa-file-lines"></i>
+            </a>
+          </div>
+        </div>
+        <img src="./assets/AmanHab.png" class="header__me--photo" />
+      </header>
+      <button class="mail__button click" onclick="toggleModal()">
+        <a href="#" class="mail__button--link">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title modal__title--about">
+            Here's a bit about me
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--about text--blue">
+            Frontend Developer
+          </h4>
+          <div class="mode__para--container">
+            <p class="model__para">
+              I'm a 20 year old University Student
+              <span class="text--blue text--bold">frontend developer</span> who
+              aspires to build top tech like
+              <span class="text--blue text--bold">user experiences.</span>
+              <br />
+              I'm currently working on improving my
+              <span class="text--blue text--bold">skills</span> and
+              <span class="text--blue text--bold">team work</span> through
+              harder and harder challenges as I go on. My biggest accomplishment
+              is starting my
+              <span class="text--blue text--bold">coding journey</span>
+              and making myself
+              <span class="text--blue text--bold">a better person</span>
+              at the same time. Being a very
+              <span class="text--blue text--bold">sociable</span>
+              and
+              <span class="text--blue text--bold"> friendly </span>
+              person makes me able to work along with anyone I'm teamed up with.
+            </p>
+          </div>
+          <h3
+            class="modal__languages--title text--blue text--bold link__hover-effect2 link__hover-effect--blue"
+          >
+            Languages I know
+          </h3>
+          <div class="modal__languages">
+            <figure class="modal__language--container">
+              <img src="./assets/HTML5.png" class="modal__language--img" />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/CSS.png" class="modal__language--img" />
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/JS.png" class="modal__language--img" />
+              <span class="language__name">JavaScript</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/REACT.png" class="modal__language--img" />
+              <span class="language__name">React</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal__half modal__contact">
+          <i
+            class="fa-solid fa-times modal__exit click"
+            onclick="toggleModal()"
+          ></i>
+          <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
+          <h4 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new work.
+          </h4>
+          <form id="contact__form" onsubmit="contact(event)">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="user_name" type="text" required />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="user_email" type="email" required />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea
+                class="input message__area"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">
+              Send it my way!
+            </button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--succes">
+            <p class="overlay--succes__text">
+              Thanks for the message!
+              <br />
+              I'll be in contact with you soon!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/circle.svg" class="shape shape--0" />
+      <img src="./assets/triangle.svg" class="shape shape--1" />
+      <img src="./assets/semi_circle.svg" class="shape shape--2" />
+      <img src="./assets/semi_circle.svg" class="shape shape--3" />
+      <img src="./assets/squiggly.svg" class="shape shape--4" />
+      <img src="./assets/squiggly.svg" class="shape shape--5" />
+      <img src="./assets/circle.svg" class="shape shape--6" />
+      <img src="./assets/triangle.svg" class="shape shape--7" />
+      <img src="./assets/circle.svg" class="shape shape--8" />
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="projects__title">
+            Here are some of my <span class="text--blue">Projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project first__project">
+              <div class="project__wrapper">
+                <img src="./assets/notflix.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Notflix</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JS, OMDb API
+                  </h4>
+                  <p class="project__description--para">
+                    A Netflix replica app that uses OMDb API to display searched
+                    movie names.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/CutzuDev/Notflix"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://cutzudev.github.io/Notflix/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/treact.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">TReact Template</h3>
+                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <p class="project__description--para">
+                    A TReact replica app fully reactive on phones while having a
+                    slick design.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/velpcode/React-Template"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/React-Template/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/librarywebsite.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    E-Commerce Website
+                  </h3>
+                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <p class="project__description--para">
+                    Reactive app that displays data about popular and
+                    recommended books.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/velpcode/E-Commerce-Website"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/E-Commerce-Website/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/vanitybuypagewebsite.png"
+                  class="project__img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Vanity Buy Page</h3>
+                  <h4 class="project__description--sub-title">HTML, CSS</h4>
+                  <p class="project__description--para">
+                    Buy page app that displays available upgrades on related
+                    forum.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/Vanity-BuyPage/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure class="footer__logo--container">
+            <a href="#">
+              <img src="./assets/logo.svg" class="footer__logo--img" />
+            </a>
+          </figure>
+          <div class="footer__social--list">
+            <a
+              target="_blank"
+              href="https://github.com/velpcode"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Github</a
+            >
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/aman-velpula-9b8b3619b/"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              LinkedIn</a
+            >
+            <a
+              href="#"
+              onclick="toggleModal()"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Contact</a
+            >
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2022 Alex Farkas</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- Project Done :) -->
