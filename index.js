@@ -6,10 +6,10 @@ function contact() {
 
   emailjs
     .sendForm(
-      "service_1y1zvcu",
-      "template_8vorhva",
+      "service_1y1cu",
+      "template_8vorh",
       event.target,
-      "FH-24DcZWvN7TmYng"
+      ""
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -17,7 +17,7 @@ function contact() {
     })
     .catch(() => {
       alert(
-        "The email service is temporarly unavailable. Please contact me directly at alexfarkasbusiness@gmail.com"
+        "The email service is temporarly unavailable. Please contact me directly at velpmail@gmail.com"
       );
     });
 }
