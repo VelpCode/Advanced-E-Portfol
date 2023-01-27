@@ -18,6 +18,12 @@ p {
   cursor: default;
 }
 
+.wave_emoji {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+
 h1,
 h2,
 h3,
