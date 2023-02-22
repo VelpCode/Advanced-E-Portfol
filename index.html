@@ -1,1759 +1,417 @@
-Theoretical Perspective:
-Application to Family Ties
-Dr. Stephen Lin
-Overarching Questions throughout the Course
- What is your definition of family?
- Are there more than one type of family?
- What role does family serve in our lives?
- What is the relationship between family and society?
-Myths or Misconception of Family
- Family is in decline
-(abandonment of today’s elderly)
- High divorce rates  family dysfunction
- Nuclear family as an ideal family type
- Family members share uniform experiences
- The young and the old live in their own way
-Family Ties & Aging: Theoretical Orientations
- Avoiding the functionalist paradigm because...
- Continuity & Change
- Multi-level (macro-meso-micro)
- Multi-faceted (multiple life domains)
- Diversity
- Intersecting structured relations (age, gender, class, ethnicity)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Velpula</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/AV.svg" />
+    <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/492fd5106e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("FH-24DcZWvN7TmYng");
+      })();
+    </script>
 
- Individual Agency in context (making choices)
- Negotiated relationships (e.g., caregiving) – ‘working out’ ties
-Core components covered by combining
-3 theoretical approaches
- Life course
- Cohort
- Feminist
-The Life Course Perspective
-“The life course perspective links the experiences of later life
-to earlier life stages and of old family members to younger
-ones.” (Connidis, 2010:15-16)
-The Four Ts of the Life Course Perspective
-1. Trajectories (e.g., long-term pattern of stability and
-change)
-2. Transitions (short-term change in one’s status)
-3. Turning points (e.g., marriage, childbirth)
-4. Time: chronological, social & historical
- (Review their definitions in text)
-Other Key Life Course Principles
- Life stage principle
--Impact of life transitions on individuals varies by:
-o Timing (when does a specific event occur in one’s life)
-o Sequencing (the order of life events)
- Linked lives
- -Connections with others and reciprocal influences of
- interdependent lives.
-Life Course Perspective
- Human agency
--individual biographies (through actions and decisions)
- Agency-within-structure (Settersten)
--constraints & opportunities determined by our SSR
- Macro-meso-micro link
-Inquiries about Family Ties & Life Course
- How are family lives of older people linked to
-other family members?
- Intergenerational bonds (e.g., filial piety)
-https://www.youtube.com/watch?v=ybxNkpS5q-g&noredirect=1
+  <meta charset="UTF-8">
+  <meta name="description" content="Canadian Frontend Developer with a passion for learning new skills.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
 
-Weaknesses of the Life Course Perspective
-1. Limited theoretical development
- -Must specify theoretical leanings beyond claiming a life
- course perspective
-2. Failure to connect structured social relations
- -Linking age, gender, class, race, ethnicity and sexual
- orientation to social institutions and to individual lives
-The Cohort Perspective:
- The definition of cohort
--people who occupy a specific age category
- (e.g., 1900s, 1990s, 2000s)
- The significance of cohort
- -sharing a similar historical time that shapes their
- collective life experiences (‘cohort effect’)
--sharing similar ‘social time’
-The Cohort Perspective
- Stability
--to the extent that people continue to replicate the
- behaviours of preceding cohorts, dictates the amount of
- change that occurs
- Can you think of things we repeat now that our parents
- also did when they were our age?
- Change
--occurs to the extent that successive cohorts do something
-other than merely repeat the patterns of behaviour of their
-predecessors
-Inter-cohort Differentiation
- Differences between cohorts occupying a particular
-stage of life at different time periods
- Sources of differences
--social norms, attitudes, practices, historical time
-Feminist Perspective
-“The personal
- is political”
-Feminist Perspective
- Among first to critique family life and expose structured
-social relations (gender) that permeate family life
- Gender & age as power relations
- Intersectionality
-Theory Application Paper (20%)
- Think critically of how different
-theoretical/conceptual frameworks apply to family
-ties and aging over the life course
- The combination of different theories and concepts
- the complexity of family ties
-Social Support
-Social Support
-General Definition
--Help and assistance people give to one another
--covers a wide range of help
-Types
-♥ Informal support (e.g., family, friends, neighbours)
-$ Formal support (e.g., help from those whose job is to
-provide help, help from government-subsidized
-programs or paid workers)
-Characteristics of Formal & Informal Social Support
- Complementary
- Often the combination of both
- One does not necessarily replace the other over the life
-course (Why?)
- Changes over the life course (examples?)
- Varies by gender, marital status, ethnicity/culture & socioeconomic status
- Relevance of Social Policies (political economy)
--public issue or private trouble?
-Social Support in the Life Course Perspective  Help received by older persons (focus in the textbook)
- Informal & formal support received at all ages
- Some geared toward particular life stages
- The application of linked lives to informal social support
- The importance of social networks
-Social Support of Older Persons
- Caregiving as a form of social support
- Conceptual clarity (social support caregiving)
- Distinguish caregiving from social support
 
- Types
--Emotional, financial, instrumental/tangible support
- Social Network
--size & family composition (siblings’ gender)
-The Convoy Model of Social Support
- The ‘time’ factor of social support
- The dynamics of social networks over time
-some leave, some stay, some join the convoy
-over the life course
-different life stages
-continuity & change
+  <meta name="author" content="Aman Velpula">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <section id="landing-page" onmousemove="moveBackground(event)">
+      <nav>
+        <figure class="personal-logo--container" onclick="darkTheme()">
+          <img src="./assets/AV.svg" id="personal-logo" />
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link" onclick="toggleModal()">
+            <a
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About Me</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class ="nav__link">
+            <a href = "https://velpcode.hashnode.dev/" class = "nav__link--anchor link__hover-effect link__hover-effect--black">My Blog</a>
+          </li>
+          <li class="nav__link" onclick="toggleModal()">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link click" onclick="darkTheme()">
+            <a href="#" class="nav__link--anchor"
+              ><i class="fa-solid fa-adjust fa-circle-half-stroke"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title title--secondary">
+            <span class="text--blue"> I'm Aman </span>
+          </h1>
+          <p class="header__para">
+            I'm a University student & a
+            <span class="text--blue text--bold"> Web/App Developer </span>
+            that enjoys creating & developing as a hobby
+            <br />
+            Here's a lot more
+            <span
+              class="text--blue text--bold cursor--pointer"
+              onclick="toggleModal()"
+              ><u>About Me</u></span
+            >.
+          </p>
+          <div class="social__links">
+            <a
+              href="https://www.linkedin.com/in/aman-velpula-9b8b3619b/""
+              class="social__link click"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/VelpCode"
+              class="social__link click"
+              target="_blank"
+            >
 
-Aging & Social Support: Main Findings
- Intimacy-at-a-distance
- Most old people are NOT lonely or isolated.
- Informal caregiving from family (mostly) & friends remains
-the primary form of care for seniors
- Key Factors that affect the informal caregiving arrangements
- -living arrangements/geographical proximity
- -quality of family ties (harmony vs. conflict)
- -gender (sons/brothers vs. daughters/sisters)
- -economic resources (caregiving does cost money!)
- -cultural norm (e.g., filial piety)
-Gender & Social Support
- Men rely more on spouse as confidants and best
-friends; women also include children, friends
- Women provide more social support. Why?
- Women provide more hands-on personal care,
-homemaking and emotional support; men more
-advice, home maintenance and monetary help.
- Women more likely to be primary caregivers, men
-secondary caregivers
- Serial caregiving not simultaneous care to two
-generations (sandwich generation)
-Social Support Providers & Recipients
- Much research focuses on social support from
-spouses & children.
- Need more research on cultural minorities,
-siblings, grandchildren, distant relatives &
-friends
- Less care = inadequate care?
-To Sum up….
- The application of LC, cohort, and feminist
-perspective
- Multi-level analysis, multi-dimensionality
- Intersectionality (age, gender, class, ethnicity)
- Gender & Social Support
- Variations across different ethnic groups
- Be aware of overgeneralization!!
-Family Ties Over the Life Course
-Dr. Stephen Lin
-Older Persons in a Family Context
-“Family ties in old age are the culmination of a lifetime
-of decisions made, roads taken and not taken, and
-changing times and social worlds.” (Connidis, 2010: 3)
-Family context
-• Move beyond the nuclear family model. Why?
-• Focus on late-life families OR family relationships in later life?
-• Continuity & Change (Family Dynamics)
-- linked lives (reciprocal impact)
-Assessing (or Judging) Family Ties
-Micro-level analysis
-- Individuals do not necessarily share
-uniform experiences of family ties
-“Comparisons across time require us to
-consider the impact of both continuity
-and change from the vantage point of
-different family members.”
-(Connidis, 2010:10)
-Social Support for the Elderly
-Be Cautious
-• Must avoid the view of ‘blaming the victim’ (William Ryan)
-• The balance of meeting challenges of aging and family life as private
-trouble versus public issue (C. Wright Mills)
-➔ Family or social responsibility or both?
-The Availability of Family Ties in Later Life
-Family structure (meso-level)
-▪Size
-- Number of generations (vertical)
-- age of childbirth
-- Size of each generation (horizontal)
-- fertility pattern (number of children)
-▪Gender composition
-- brothers & sisters
-Availability of family ties
-• Age-condensed vs. Age-gapped families
-• Demographic & Social Trends
-▪ Trends in partner formation (age of marriage)
-▪ Fertility (timing and # of children)
-▪ Mortality (life expectancy)
-Be aware….
-“Demographics and social trends are at once a critical component of
-the social context in which family members negotiate their
-relationships and a product of their time. . . . [W]e cannot simply apply
-trend data to our current way of doing things and assume that we have
-seen a complete picture of what lies ahead. . . . Changes in the
-availability of one type of kin are likely to be met by adaptations in the
-way that other ones are negotiated.” (Connidis, 2010:26)
-**Trend data**
-- indicate cohort differences
-For example,
-if people have fewer children, they
-may negotiate supportive ties with
-brothers and sisters when they
-require care in old age.
-Availability of family ties
-• Key trends over the past 50 years:
-• marriage rates down
-• cohabiting rates up
-• divorce rates up, down and stabilized
-• fertility rates down
-• life expectancy up
-• age of first marriage and child up (delayed transition)
-• extended kin network through remarriage/re-partnering
-• increasing number of foreign born due to immigration –
-transnational family (family members living in different locations)
-Availability of Family Ties: Spouse, Siblings & Children
-General Findings
-• Most elderly people have intra- and intergenerational ties
-• Significant Gender differences in marital status of the elderly
-- widowhood rate (higher for women)
-• Significant RACE differences in the U.S.
-- lower survival rate of African Americans in old age
-Keeping in mind that…
-• Cross-sectional data (trends in specific periods of time) - static
-• Family ties may change over the life course
-• Family history
-- dynamic (continuity & change)
-e.g. marital history vs. marital status
-- long-term observation: trajectory
-- longitudinal or retrospective study
-The Availability of Marital/Intimate Partner
-• Marital status
-- the ‘single status’ can be misleading!
-e.g., single individuals in a committed relationship
-• Intersecting marital status & gender
-- men vs. women
-The Availability of Children
-• Being single can no longer stand as a proxy for no children (Connidis,
-2010:38) - why?
-• The parents of the baby boom (those born between 1946-1964) –
-cohort analysis, historical time
-→ ‘A large pool of children’
-→ Greater chance of more support from adult children in old age
-The Availability of Siblings
-• Patterns of fertility – number of siblings
-• Likelihood of having step and half siblings
-(through remarriage)
-Living Arrangements
-in Later Life
-Living Arrangements in Later Life
-Link between living arrangements (individual experience) and
-1. Macro-level factors/processes of structured social relations
-(gender, class, age, ethnicity)
-2. Life transitions (family biographies)
-Research on Elders’ Living Arrangements
-Elements of Inquiries
-1. Where (Location)
-2. Housing types (house or apartment?)
-3. Living alone or with others?
-- personal choice or initiation by others
-• ‘Aging in place’ most common over time
-→ A very small elderly population in institutional care setting
-• How do the elderly perceive ‘Aging in Place’ https://www.youtube.com/watch?v=Rpqavo4hBBk
-• Result: Greying of the suburbs
-→ urban planning, community inclusion
-→ building an age-friendly city https://www.youtube.com/watch?v=pVeXYWD0UpU
-• Age Segregation compounded by gentrification
-Aging, Place and Society
-Aging in Place
-Building an Age-friendly City
-Class Discussion
-Imagine that you were hired as an
-urban planning consultant for the
-city of London, what would you
-recommend to them to make our
-community more age friendly?
-Housing Types
-• House (whose house?)
-• Between houses (seasonal migration- snowbirds)
-• Apartment
-• From house to apartment? (transition)
-Living alone or with others?
-• Living alone (survivorship, marital status in old age)
-• Living with someone or others
-(e.g., spouse, intimate partner, adult children, parents, siblings, friends)
-• Important differences in living arrangements based on the combination of:
-o marital status
-o gender
-o Age
-o With or without children
-o family ties (quality, culture & family history)
-Living with others….
-• Adult children or grandchildren
-• Siblings
-• Friends (‘social family’)
-Analytical factors
-• Quality of family ties- micro
-• Cultural norms (e.g., filial piety in Asia) – macro-meso
-• Economic reason (next slide)
-Intergenerational Cohabitation
-• Misconception
-• Mutual dependency and exchanges of support
-→ whose point of view?
-• Economic benefits (money saving)
-Multi-generational Living Arrangements in Canada
-• Highly associated with ethnicity
-• Most likely seen in families of Asian AND Southern Europrean origin
-→ a broader trend
-→ note the internal differences by family ties, social class, personal
-preferences
-Western Move To Embrace Co-Residence: Granny Pods
-Intimate Ties in Later Life
-Dr. Lin
-Defining Intimate Ties
-• Giddens’ “pure relationship”
-“a situation where a social relation is entered into for its
-own sake, for what can be derived by each person from a
-sustained association with another; and which is continued
-only in so far as it is thought by both parties to deliver
-enough satisfactions for each individual to stay within it.
-Love and …sexuality…are connected more and more via the
-pure relationship.” (Connidis, 2010:53)
-Pure Relationship
-• The pure relationship is an ideal type, providing an
-abstract standard or referent which we compare with
-other intimate relationships
-•Individuals who want to live together today must
-negotiate, define and justify the characteristics of their
-relationship on an ongoing basis
-
-Defining Intimate Ties
-Are you in an intimate relationship?
-What are features of an intimate relationship?
-5 relational components (Connidis, 2010, p. 53):
- Commitment
- Deep feelings & expressions of caring
- Thinking about each other; sharing values & goals
- *Physical intimacy (sexuality): pure relationship
- Interdependence
-• pure relationships (presence of sexual relations)
-• marriage (legally sanctioned; sex assumed)
-• other non-marital intimate partnerships
- (non-conventional)
-Intimate relationships include:
-Intimate relationships in later life
-• Marriage, Remarriage
-• Range of relationships reflects new ‘sex rules’ that separate sex
-from marriage
- - Same-sex & Opposite-sex cohabitation with sexual intimacy
- - Living apart together (LAT) with sexual intimacy
-Gender & age affect engagement in particular relationships
-• gender & age-based assumptions – structured social relations –
-about appropriate intimate relationships.
-Intimate Ties
-• Incorrectly assume intimate relationships of old are stable,
- stale – not changing, innovative, or new
-• Life course perspective: old have experienced social change
- in intimate relationships similar to that of the young
-• “The longer we live, the more change is a constant feature of
-our lives and a lifetime commitment a much longer reality.”
- (Connidis 2010, p. 55)
-- adapting to the new reality for all age cohorts
-Intimate Ties
-Intimate Ties
-• Core question:
-How do social arrangements (ways of establishing intimate
-ties) help or hinder different types of relationships to
-flourish at different points in the life course?
-• Relates to structured social relations especially
-- age relations, gender relations & sexual orientation
-Central feature of family structure
-• Structured social relations X family structure
- a wide range of outcomes
- - influenced by structured social relations (e.g., gender & class)
-•Associated with:
-- Living arrangements
-- Loneliness
-- Psychological & material well-being
-- Health
-Marital Status
-•Marriage confers unique privileges & obligations
-•Intersection of gender & marital status
-- Reinforces masculinity for older men
-- Insures > economic security (women)
-- Guards against social isolation (men)
-•Health outcomes:
-- Married & cohabiting have > health, well-being & longevity
- than unmarried
-- Never married (single) have > satisfaction & well-being than
- widowed, divorced, separated
-• Loneliness:
-- Greater among those who had previous relationships
- (e.g., widowed)
-- Desolation (feeling forsaken and lonely) vs Isolation (being
- on one’s own); Duration
-• Marital Quality
-- poor marriages do not enhance well-being
-• Married people receive more informal social support, less
-formal support, & less likely to live in institutional settings
-Marital Status cont’d
-• Need a life course approach to marital status: “current
-marital status… masks major life course differences among
-older persons of the same status.” (p. 58)
-- Married once vs. 3 times
-- Divorced after 1 long marriage vs. 3 short marriages
-• Life course approach to marital history & timing considers
-- Sequencing/ ordering
-- Transitions
-- Duration
-• Ageism apparent
-- older persons considered asexual or ‘gross’ if sexually active
-• Structured social relation of sexual orientation
-- unequal access to marry among gay, lesbian adults among today’s
- old in some countries
-- LGBT relationships = example of forging relationships without
- marriage &, for old, without children (separating sex from
- procreation/marriage)
-• Structured social relation of age
-- For old, sex does not = procreation
-
-Sexuality
-Sexuality
-•New ‘sex rules’ support other than marriage & raise
-questions about monogamy (sex outside the
-marriage)
-• This is NOT a new concern. . .
-
-Sexuality
-• Key reason for focus on female monogamy historically:
-certainty about paternity
-  who is the father?
-•DNA testing for various reasons reveals myth of female
-monogamy
-• Evidence of sexual activity & ‘progressive’ views from
-earlier research on younger adults (today’s old)
-Shortcomings of limited research on
-sexuality in old age:
-- Measures used to assess significance of sex (intercourse) -
- What about quality & other sexual activities ?
-- Cross-sectional – compared with other age groups – rather than
- over time (cohort & life course perspective)
-
-Sexuality
-• Older persons value sexual intimacy as part of a good
-relationship
-• Majority of those 45+ have regular sex - once a week or
-more if 45-59; once a month or more if 75+
-• Several gaps among older persons:
-- Partner gap; fewer for women & with age
-- Gender and age gaps; women & old-old consider sex less
- important for quality of life
-- Generation gap re. what is appropriate sexual activity.
-Sexuality
-•After 50, multiple reasons for good sex life
-- more free time
-- no fear of pregnancy
-- no children at home
-- extended view of sexual activity
-•But. . . access to a partner can be difficult, especially
-for women (fewer men available in the same age
-cohort).
-https://www.youtube.com/watch?v=MmjOTPtmxJA
-Sex, Life and Intimacy in Later Life
-Intimate Partnerships
-Dr. Lin
-• Focus: Long-term unions
-= Marriage for most old persons
-• Also consider gay/lesbian ties & other relationships
-•Hallmark of intimate partnerships:
- Interdependence
-•Interdependence varies in:
- Extent
- Balance (between partners) – over the LC
- Shared vs. conflicting interests
- -Individual vs. joint action
-Intimate Partnerships
-Interdependence is a Hallmark of Long-term Partnerships:
-Extent, Balance, Shared/Conflicting Interest, Individual/
-Joint Activity
-• Factors that alter level of interdependence ?
-• Life events, transitions
-
-Marriage in Later Life North of 60: The Marriage Lifers
-G&M Jan. 3, 2004 F1
-Long-term Unions
-• Greater longevity  greater chance of ‘marriage lifers’
- (long-term marriages).
-• Likely for the younger generation? No. Why?
-o > age at marriage
-o > divorce
-o > cohabitation
-= fewer ‘marriage lifers’ (couples married 50+ years)
-The Nature of Long-Term Unions
-Long-term “marriages are in motion” Dynamic; ongoing
-negotiation in response to changing times and situations
-  ‘doing marriage’: life course perspective
-Structured social relations played out in marriage
-Gender relations:
-• ♀ and ♂ satisfied with marriage but ♂ more so
-• Health benefits for both but > for ♂
-• ♂ rely on spouse as a confidant
-• ♀ benefit more from the economic security
-The Life Course of Marriage
-• Key trouble spots:
- - Different values & lack of mutual interests
-• Need multi-level analysis of impact of (good) marriage on
- individual (usual focus), community, & society
-• Other concerns: financial security and sexual fulfillment in
- later life
-• Good long-term unions involve change, mutual support of
- independence & interests
-Good vs. Poor Marriage
-Marital Satisfaction Across the Life Course
-• Marital satisfaction & happiness  mental health
-• A poor marriage (strain, conflict) has negative effects
-• Traditional approach to studying marital satisfaction over time:
- 1. Focus on family life cycle (e.g., when was the 1st
- child born)
- Problem?
-  Ignores childless
- 2. Rely on cross-sectional data. Problem?
-  Can’t observe change over time
-Marital Satisfaction: the LC Perspective
-Family life cycle
-• Trajectories
- - the impact of multiple key transitions
- (e.g., childbirth, children leaving home)
-• Turning points
-Marital Satisfaction: the Cohort Perspective
-Cohort effects (Glenn, 1998)
- - observations of change in marital satisfaction are
- actually a function of cohort effects
- - differences among cohorts in marital stability
- and quality rather than differences over time in
- the course of all marriage
-Cohort and life course comparison
-‘On balance, older couples appear to be more satisfied
-with their marriages than their middle-aged and younger
-counterparts, but they were not happier with their
-marriages than they were younger (Umberson et al., 2005)
-General Finding on Marital Satisfaction
-• Marital satisfaction follows a curvilinear pattern over time
-(retrospective approach – thinking back)
-• Marital satisfaction is stable over the middle and later years
- Different Inquiry methods  different social realities
-• Critical Lenses
-- Need more longitudinal research
-- Challenge: losing cases to divorce (attrition)
-- Tendency to justify behaviour (benefits of staying married)
- Sexuality in Long-term Marriages
- A Typical Old Couple?
-Sexuality in Long-Term Marriages
-• Sexual activity important but need not be intercourse
-• Based more on friendship-based love than on erotic love
-• Sexuality in later-life marriage involves the ongoing
-negotiation of intersecting age and gender relations.
-• Age & gender-related views on what is sexually
-appealing and appropriate (intersectionality; macro-micro)
-Sexuality and Aging
-• Central Question:
-How do people sustain their sexual activity over time?
-Medicalization of Sexuality
-Negative stereotype of aging exemplified by
-emphasis on youth characteristic of promotions
-for medications designed to sustain sexual
-activity (just like in youth)
-. . . started with drugs for Erectile Dysfunction . . .
-
-More recent campaigns for ED drugs
- focus on couples . . .
-
-But . . .
-exercise of agency by husbands enhanced by use of
-drugs such as Viagra
-. . . at expense of choice by their wives
- (traditional gender power relations)
- -male dominance vs. female submissiveness
-More recent focus of drug companies:
- Women . . .
-
-Sexuality and Marriage
- Long-term couples (gay & straight) find alternatives
-to intercourse for expressing satisfying intimacy (a
-true advantage of aging in a long-term relationship)
-Gay & Lesbian Partnerships
-• Significance of historical time
- (life course perspective)
-• Canada’s same-sex marriage
- was legalized in 2005
-• US’s same-sex marriage was
- legalized in June 2015.
-Gay &Lesbian Partnerships
-•Intersection of age relations and sexual orientation =
-Double invisibility, jeopardy
- “Being old & being gay” (double negatives)
-•Many of today’s old gay and lesbian individuals stayed
-in closet or came out after life as straight
- → issue of disclosure (to whom, when)
-•Growing number of older, long-term couples who are
-out publicly in Canada . . .
-
- Similar to long-term heterosexual partnerships,
-household gendered division of labour must be
-negotiated
-Gay & Lesbian Long-term Relationships
-• Parallel factors contribute to rewarding relationship
-• Have social support networks (including fictive kin: gay/lesbian
-friends)
-• Unions less stable than straight marriage
-- lack of officially sanctioned unions (recent change)
-- and corresponding support
-• Gay/lesbian couples in civil unions have closer ties with family
- members than couples who are not (U.S. research)
-  Suggests that legal marriage will enhance social support.
-Gay & Lesbian Long-term Relationships
-• Generally, gay partners more autonomous, egalitarian, & both
-in labour force, less monogamous than straight partners
-• Ambivalence (namely, contradiction) created by
-- working out gender in gay/lesbian relationships
-- being in committed relationship that could/cannot be
- legally sanctioned (in some other countries)
-• Need more research on married/long-term gay/lesbian
-couples (less researched)
-Review of Intimate
-Ties in Later Life
-Dr. Lin
-Intimate relationships
- Element of ‘pure relationship’ (involving negotiation)
- Features
- Commitment
- Deep feelings & expressions of caring
- Thinking about each other
- Sharing values & goals
- Interdependence
- **Physical intimacy (sexuality)**
- Changes over the life course
-Intimate relationships include
- Pure relationships (the presence of sex)
--security (lasting) vs. personal freedom (ending)
- Marriage (formally defined; sex assumed)
--monogamy (in most countries)
- New Sex Rules (alternatives to marriage)
--LAT, Cohabitation, Open relationship
- Intersection of intimate ties, age, gender & sexual
-orientation (meaning??)
-Incorrect assumptions of intimate
-relationships of old – stable & stale
- Continuity & Changes (LC Perspective)
-“Among today’s old people, changes over
-time in gender relations, sexuality and
-monogamy have set an important context
-for the negotiation of intimate relationships
-over their life course.” (Connidis, 2010: 55)
-Marital Status
- The intersection of structured social
-relations (i.e., age, class, gender) with one
-another and with family circumstances
-creates dynamic variety of outcomes
-based on occupying a particular marital
-status of individuals
- Multi-level analysis (macro, meso, micro)
-Marital Status vs. Marital History
-‘Current marital status… masks major life
-course differences among older persons of
-the same status (Connidis, 2010:58)
- The application of the LC principles
-- trajectory, transition, turning point, duration,
- sequencing
-
-Sexuality
- The structured social relations of age relations
- -Young vs. Old
- -Ageism (negative stereotype)
- In connection with sexual orientation
-- Heterosexual vs. LGBTQ
-
-Sexuality, Aging & Sexual Orientation
- The decline of intercourse in old age does not
-mean the lack of interest in one’s partner
- Sexuality is a far broader concept than
-intercourse in all age groups
- The problem of heterosexual intercourse
-- excluding LGBTQ’s sexual experiences
-The Complexity of Sexuality
- The intersection of aging (LC), age relations
-(cohort differences), gender and sexual
-orientation
- “Considering intimate relationships among today’s
-older persons reveals how aging and age relations
-cut across views of gender, sex and monogamy,
-illustrating both continuity and change in attitudes
-and behaviour.” (Connidis, 2010:61)
-Research Bias
- Most research on aging & sexuality is crosssectional (limited view)
- History of sex life in intimate relationships
--continuity and changes
-
- “A history of active sex life is carried into old age”
-Sexual Satisfaction in Old Age
-“Other conditions also converge to potentially
-enhance sexual satisfaction after 50: more free time,
-no fear of pregnancy, no children at home, and
-enjoying sex beyond ‘the Act’” (Connidis, 2010:p.63)
- Friendship love more than erotic love
-Sexuality in Later-Life Intimate Relationships  Negotiating sexual life in later-life intimate
-relationships
- “Sexuality in later-life marriage involves the
- ongoing negotiation of intersecting age and
- gender relations” (Connidis, 2010:71)
-  Gender and age-related views on what is
- sexually appealing/appropriate
-Long-Term Intimate partnerships
- Interdependence varies by….
- extent
- balance (between partners)
- shared vs. conflicting interests
- individual vs. joint action
- Factors that alter interdependence
-- life events, transitions (retirement, declining health)
-The Nature of Long-term Unions
- “Marriage are in motion” (ongoing negotiation)
- Marital satisfaction & the family life cycle
- “Looking at marital satisfaction over time
- reflects a life course focus on trajectories that
- takes into account the impact of particular
- transitions, such as having children, on the
- long-term dynamics of a relationship.” (Connidis, 2010: 67)
- Marriage lifer (less common for younger cohorts)
-Medicalization of Men & Women
- Sex-enhancing drugs
- The intersection of gender, aging, age
-relations and sexuality
-LGBTQ Long-term Intimate Partnerships
- Double jeopardy/invisibility
-- intersection of age relations and sexual orientation
- Household division of labour
-- working out gender and power relations
- Social support for LGBTQ individuals e.g., coming out
- Ambivalence (committed, but not legally sanctioned)
-The Impact of Life
-Transitions on
-Intimate Ties
-The Impact of Life Transitions on Intimate Ties
- Retirement
- Declining Health
-  Alters interdependence of older spouses & partners
-Impact of Retirement
- Retirement = transition into early old age (early 60s)
-- social time
-
- “Hegemonic views of masculinity and femininity that
-dominated the life course of today’s old set different
-contexts for men and women in retirement.”
-(Connidis, 2010:81)
-= one reason for research focus on male retiree, female
- homemaker [traditional gendered life course]
-Any problem with this hegemonic view?
-Individual or Collective Decision?
- Mutual influence (linked lives)
- Who retires first in heterosexual intimate older
-couples leads to different outcomes
- Reason that one party retires earlier than the other
-(gender comparison)
-
- Retirement by marital status (married vs. single)
- Synchronized retirement (negotiation required)
-Impact: the gendered division of labour
-Negotiating the GDL  Marriage Satisfaction
-Gendered division of labour continues but sharing of
-all responsibilities
- Perception of fairness (subjective negotiation)
- Life course effects on marital quality (continuity of
-shared interests vs lack of them pre-retirement) 
-Negotiation, better marital quality
-Inter-cohort differences
-- egalitarian relationships
-Egalitarian relationship (pre-retirement)
-The Impact of Declining Health
- Alters relationships as interdependence changes
- Essential components of caregiving
- Caring for: looking after someone’s needs
- Caring about: emotional attachment and concern
-for someone
- Women more likely to care for spouse in old age
- When heterosexual partner becomes ill:
-increased dependency of care receiver
-increased dependency of care provider
- Providing care to spouse can 
- > interdependence, closeness (P)
- > burden and health strain for care provider
-(especially for women and if partner suffers
-from dementia) (N)
-  Ambivalence (mixed feelings)
- Caregiving among same-sex couples:
- Seeking care may force disclosure for older gay and
-lesbian individuals (or isolation)
- Discrimination for both care provider & recipient
- Individual responsibility for caregiving of a family
-member may be heightened in a same-sex relationship
-in later life
- HIV/Aids → earlier life stage of caring (off time
-caregiver); now evolving into long-term chronic illness
- Isolation from other family members → community
-approach to caring among family-like friends (fictive kin)
- Gay and lesbian relationships provide
-examples of pure relationships developed
-outside of the dominant heterosexual
-marriage
- Next topic: Relationship alternatives and
-single life
- Questions?
-Transitions in Intimate
-Relationships in Later Life
-Dr. Lin
-Why should we study this topic?
- Relationship Dynamics (e.g., social network) over
-the life course
- Stability & change over time?
- Personal well-being
- Vulnerable population? Welfare Policy Implication?
-
-Main Focus
- Focus on transitions encouraged by the Life Course
-Perspective
- Losses and gains (personal needs, identity)
- Life course principles of timing (on or off time) and
-life stage affect personal negotiation of transitions
- Structured social relations played out in personal
-negotiation of transitions in intimate ties
-Multi-level Analysis
- Relationships are constantly negotiated across the
-life course as individuals exercise agency within their
-structural constraints (macro-meso-micro link)
-  Diverse experiences
-Key Transitions
- Loss:
-Widowhood/ Death of Long-term straight or
-same-sex partner
- Divorce/Dissolution of Long-term straight or
-same-sex relationship
- Gain:
- Remarriage / Repartnering
- Cohabitation
- Living Apart Together
- Dating or Steady Companions
-Widowhood / Loss of Long-term Partner
- Current research focus: Widowhood and Women
- Why?
- Know less about impact of losing ‘unofficial’
-long-term partner, especially gay or lesbian
-partner
- Research bias/gap
-Widowhood / Loss of Long-term Partner  Timing and life stage
- Among gay couples, AIDS may lead to early loss of partner
-(“off time” - early life stage)
- In comparison with many widows/widowers in later life
-(“on time” – old age)
- “Different experiences of transitions in intimate partnership”
-Impact of spousal/partner loss
- Living arrangements (e.g., nursing home)
- Changes in support network
- Financial challenges
-- especially for heterosexual low SES women
- Personal adjustment (household division of labour)
-Widowhood / loss of partner
- Widowhood as event (losing a a spouse) and as
-process (going through bereavement and
-transitioning to a new status)
- Bereavement
-= grief after the initial loss of a spouse.
- Period of intense personal feelings managed over
-time → incorporating dead spouse into current life
- Usually lasts for 2-4 years (highly variable)
-Widowhood/loss of partner cont’d
- Whether death sudden or after long illness,
-similar process of bereavement appears to
-occur
-Narrative on Bereavement
-Bereavement
-After sudden heart attack & death of husband,
-John Gregory Dunne, in their home, she wrote:
-Life changes fast.
- Life changes in the instant.
- You sit down to dinner and life as you know it ends.
- The question of self-pity. . . .
- For a long time I wrote nothing else.
- Life changes in the instant.
- The ordinary instant.
-Joan Didion. 2005. The Year of Magical Thinking. NY: Knopf, p.3.
-Joan Didion
-Experience of being widowed:
-feeling vulnerable & invisible
-(isolation) (pp. 74-75)
-Bereavement
- Impact of unexpected sudden death
-  lack of anticipatory socialization (turning point)
-  challenge of entering a new status
- Costs of long-term caring (physical strain, social
-isolation)
- Different ages and duration of the long-term intimate
-ties have varying consequences for adjustment .
-Widowhood Effect
-Major Findings (Harvard School of Public
-Health, 2013)
- Over the 10 years studied, widows and
-widowers had a 66% increased chance of
-dying within the first three months after a
-spouse’s death
- When income and wealth were taken into
-account, there was no difference between
-widows’ and widowers’ chance of dying
-Possible explanations
- The physical toll of caregiving on the
-surviving spouse
- Surviving spouses failing to care for
-themselves during widowhood
- A lack of social support
-Gendered caregiving before widowhood
- Gendered marital relationships
- Caring for spouse teaches men homemaking
-skills traditionally performed by women
- Caring for spouse teaches women ‘physical’
-skills’ traditionally performed by men
- Helps transition
-Transition to Widowhood
- Defining widowhood as transformation rather than recovery
- Gendered effects of losing a spouse (learning new skills).
--for the current elderly
- As gender relations change, effect of gender on losing
-spouse also changes (life course analysis)
- Focus is on today’s middle-aged and older persons
-(inter-cohort comparison)
- Current marital status (widow/widower) masks variations in
-how long widowhood has been negotiated. (v.s. marital
-history)
-Widowhood & Family Ties
- More interaction with adult children
-(gender difference: F > M)
- More interaction with siblings
- greater emotional closeness, improved ties,
- more frequent & supportive contact
-  the convoy model of social support
-The Death of a Same-Sex Partner
- The lack of social & legal recognition
- - in many countries: limited formal support
-  financial difficulties
- Death at younger ages due to AIDS
- Survivor guilt expressed by widowed
-homosexual persons
-
-Survivor Guilt
- A deep feeling of guilt experienced by those who
-have survived some catastrophe that took the
-lives of many others.
-Intersection of widowhood, gender
-and sexual orientation
- Negotiation of gender identity after spousal loss
-also applies
- More egalitarian relationships among same-sex
-couples (Does not apply to all)
- “Unique advantages”
-Experiences of Widowhood Among Today’s Old
-
- For women, < $
- > likelihood of moving
- For men, < social network
- For men, challenge to learn daily homemaking skills
- > reliance on children, especially men & working class
- > involvement with siblings
- - especially women with sisters
- > reliance on friends (women have more)
-The Death of Other Long-term Partners
- Other long-term partnership have been ignored
-- cohabiting partner, same-sex unmarried partner, other
- long-term commitments
- Limited research indicates common human
-experience of losing a long-term intimate partner,
-married or not
- Shift from “we” to “I” creates ambivalence as we seek
-to remember partner and forget painful experience of
-losing that partner
-Divorce
- A process, NOT a discrete event
- Stages (marital breakup & adjustment process)
- Changes in status (Life transition)
- Ex: women (homemaker to a paid worker)
-Divorce
- Unlike widowhood, divorce usually occurs earlier in life
-course (life stage)
- Divorce rates have stabilized
- < marriage & > cohabitation in younger cohorts 
-decrease divorce rates & increase chances of other
-forms of relationship dissolution
- Older persons have marital histories that may have
-one or more divorces (current marital status hides
-full count)
-Impact of Divorce - Vulnerability
- The financial impact (greater for women in general)
--single mothers (childcare & working) – greater health risk
- The financial hit for men with a lower SES
- Eroding the support network
- social isolation (higher for men)
-The Dissolution of Other Long-term Unions
- Fewer barriers to breaking up
- Some unions – such as same-sex partners until
-recently – not protected by law (protections of
-divorce such as child custody)
- Former gay and lesbian partners more likely to
-become friends (renegotiated relationship)
- Need more research on dissolution of long-term
-unions other than marriage.
-Remarriage
- An important life transition marker (e.g., following
-divorce or widowhood at younger ages)
- Remarriage rates down since 1970s
- The intersection of structured social relations, life
-stages and remarriage
- - age
- - gender
- - social class
- - marital history (life course)
-Remarriage (General Trends)
- Age
-- More likely among younger than older
- Gender
-- More desired and likely among men than women
- Social Class
- Marital History
- - More likely among divorced than widowed.
- - More desired among those with previous marriages that
- were ‘moderate’ rather than poor
- Why are Remarriage Rates Low in Later Life?
- Linked lives
- Concern for children’s welfare/estate
- Limited options (partner gap, especially for women)
- Fewer incentives (e.g. shorter future)
- Gender
- Women value independence
- Men aware of their poor health = Liability
- What makes Remarriage in Old Age Successful?
- Adult children’s support
- Greater gender balance
- Decline in remarriage offset by cohabitation
-Cohabitation
- An arrangement where two people are not married live
-together in an emotionally and or sexually intimate
-relationship on a long-term or permanent basis
- About 4% of U.S. persons aged 50+ cohabiting (thus
-far more common among young)
- A normative practice (e.g., Québec)
-Cohabitation
- AGE creates different context for cohabiting
- Cohabit for own sake and to protect children
- GENDER
- Men more likely to cohabit
- Gender equality enhances staying together
- SOCIAL CLASS
- Cohabiting provides financial advantages.
-Living Apart Together
- LAT relationships = separate households + longterm, publicly committed, intimate relationship
-(sexually active)
- Pure relationship (mutual satisfaction)
- Negotiating the boundaries and understandings of
-the intimate relationship
-  Possibly turn into cohabitation or marriage later
-Choice, circumstance or both?
-Intersection of LAT & Structured Social Relations
- AGE
- Especially popular among older couples and those with
-previous long-term unions -(intersection of age & life stage)
- GENDER
- Older women like independence, less obligation to be
-caregivers in LAT relationships
- LINKED LIVES
- Protect children’s interests, inheritance (self-interest)
-LAT Relationships in Canada
-Living Apart Together, Martin Turcotte, 2013.Ottawa: Statistics Canada. March.
-7% of Canadians in a LAT couple but significant age differences:
- 20-24 25-29 30-59 60+
-% LAT 31 17 3-5% 2% but growing
-Will Live Together 80% of young LAT couples 30%
-Duration 2.3 yrs (20-29) 3.8 yrs (40-49) 7.5 years
-Circumstance or choice? 42% vs 39% overall
-Choice 31% 66%
-Circumstance:
- Studies 26% (especially if < 30)
- Financial 25% ( especially if < 30)
- Work 15% overall; 32% of 40-49
-Choice
- Independence 4% 15% (40-49) 37% (46% ♀; 30% ♂)
-Dating & Steady Companions
-Middle-aged and old
-growing market for
-dating services.
-Dating & Steady Companions
- AGE = different context for dating
- → decline in old age
- > Focus on companionship (not finding mate)
- GENDER
- Men more likely to date
- Study of online dating (n = 18): Men more likely to
- seek committed relationship (McWilliams & Barrett, 2014)
- Men & women from long-term unions find dating hard
- Steady companion (platonic relationship with opposite sex)
-enjoyed by some (no commitment yet)
-Sexual Intimacy Among the Unattached Old
- Aim for balance between negative (old as sexless)
-and positive (old must maintain looks and sexual
-performance of youth) stereotypes
- ‘Out-of-wedlock’ sexual activity not new to all old
-people (especially men) but may have been long
-time ago
- Partner gap for women + gendered views of
-appropriate behaviour → < sexual activity among
-women
- Clear exception: Jane Juska
-Jane Juska. 2003.
-A Round-Heeled
-Woman: My Late-Life
-Adventures in Sex and
-Romance.
-NY: Villard.
-Top photo: Globe & Mail.
-Bottom photo: Book
-cover.
-“Five years after
-that fateful ad, Juska
-. . . [is] still looking
-for a man to keep her
-company–not a
-husband,
-not even a partner, but
-simply the perfect lover,
-once described by
-Katharine Hepburn as
-one who “lives
-nearby and visits often.”
- Random House, 2007
- Book cover
-Conclusion
- Challenges of losing a long-term partner for older
-persons
- PERSONAL TROUBLE AND PUBLIC ISSUE
- Once alone, majority of older persons are inclined
-to stay that way, especially women
- Better outlets for intimate relationships and sexual
-intimacy now available (not restricted to marriage)
- Some may favour entering platonic companionate
-relationships (steady relationships; not everyone is
-a Jane Juska).
-Being Single in Later LifeChoice or Circumstance?
-Dr. Lin
-Defining Single Status
-
-Are you single?
- On what basis do you define yourself as single (or not)?
- Looking (way) ahead, do you expect to remain single?
- Does life as lifetime single person seem like an
- appealing option? If so, why?
-Defining Singlehood
- Distinguish between unmarried and never married
- Definitional ambiguity
-(1) Single as a civil status:
- - individuals who are not in marriage/common-law,
- but may be in an intimate relationship
- (2) Single as a social status:
- - individuals who are not in any intimate relationship
-Who is a Single Person?
-Common research focus = civil status as NOT married.
-Single often used as a catch-all category for all who are
-not married.
-E.g., a poll of “single women” by American Association
-of Retired Persons includes separated, divorced,
-widowed, and never married.
-The remarkable internal differences of life experiences
-in the ‘Single’ categories (e.g., life transitions)
-Being Single Stigmatized?
- Cultural ideology that favours marriage (Why?)
- Benefits associated with marriage
- Negative stereotypes
- - lower in self-esteem
- - lower in life satisfaction
- - less agreeable
- - less physically attractive
- - less socially skilled
- -more lonely
- Discussion Question:
- To what extent are these stereotypes true?
-Singlism
-Refers to stigma, prejudice & discrimination
-of/against single in culture favouring marriage
-Any Positive Aspects for Singlehood?
-Singlehood: Factors & Types
-• Being single may be a function of both choice and
-circumstance (macro, meso, micro)
-• Marriage Squeeze (sex ratio, social trend)
- - a demographic imbalance in which the number
- of potential brides or grooms does not approximately
- equal the number of grooms or brides, causing some
- people to be squeezed out of the marriage market
- - linked to structured social relations (e.g., gender)
-
-Marriage Squeeze in China
-• ‘Surplus men’ (Jiang, Feldman & Li, 2014)
-• Stringent fertility policy (‘One-Child Policy)
-• Infanticide (son-preference childbirth practice)
- imbalanced sex ratio (more boys than girls)
-• Women’s improved socio-economic status (changing
- attitudes toward marriage)
-
-Media Coverage
-China’s biggest problem? Too many men
-due to the widespread abortion of female fetuses
-www.cnn.com/2012/11/14/opinion/china-challengesone-child-brooks/
-
-Voluntary vs. Involuntary
- Making choices or facing life constraints?
-
- “Thus the dimension of voluntary versus involuntary
- singlehood is probably best conceived of as two
- continua rather than a dichotomy, reflecting varying
- degrees of both circumstance and choice in staying
-single” (Connidis, 2010:99)
-Temporary vs. Permanent (main focus)
-The Fluidity of Marital Status
- Dynamic (life course history) rather than static
- “The ambiguity of single status leads some to treat being
-single and being married as part of a continuum in which
-one may move from one state to another, reflecting the
-new reality that being single does not necessarily mean
-having no romantic involvements and being married does
-not guarantee remaining so” (Connidis, 2010:95)
-Various Interpretations of singlehood
-Re-conceptualize Singlehood
-• Intimate relationships are NOT exclusive for married
-couples
-• A wide range of variations (living arrangements,
-being alone or in romantic relationships)
-• With or without children
-Research Challenges:
-Discussion Time:
- Challenge: How to interpret research when definition
- of single is inclusive?
- What is your view?
-Sociological Analysis of Singlehood
-• Social changes  demographic shifts (e.g., high singlehood
-rates for women in some developed countries: Taiwan,
-South Korea, Japan)
-• The intersection of structured social relations & singlehood
-(e.g., class, race/ethnicity and age)
-• The intersection of sexual orientation and singlehood
-• The LC principle: historical time, inter-cohort differences
-(intersection of historical time and one’s decision to be
-single) – a macro & micro link
-Gendered Perception of Singlehood
-• Being single favours men more than women (why?)
-- social construction of gender relations
-• Assigning new meaning to singlehood – human agency
-• ‘Leftover women’ in China (parallel to ‘surplus men’)
- -1 in 5 women (25-29) unmarried
- - women marry up; ‘harder’ to find a husband
- - social/family pressure (social stigma)
- http://www.bbc.com/news/magazine-21320560
-Single Men assumed to be desirable
-(Bachelor By choice +);
-Single Women assumed to be odd
-(Spinster; Unwanted & lonely -)
-Perception of Singlehood in Old Age
-Gender, Marriage & Work
-• Older married women vs. older single women
-• Traditional gendered life course vs. alternative
-(social change – inter-cohort differences)
-• Different gendered life course patterns
-• Shifting gender relations  challenge the
-assessment of being single among women
-Lives of Older Single Persons
-• ‘Socially single’ men & women are more likely
-than married persons to rely on paid help
-  a marker of independence
-Friends often take the place of family and
-provide enduring, trusting and supportive ties in
-later life (fictive kin) for ‘socially single’ people
-Negotiating One’s Life as Single Persons in Old Age
-• Negotiating different life domains (family ties, friendship, career) -
-human agency factor!!
-• Intimate involvements of single persons
-• Maintaining active ties with relatives as well as friends (fictive-kin)
-• Few are isolated!!
-Transition from temporary to
-permanent singlehood (less studied!)
-• Staying single is not typically treated as a life transition
- no ceremonial or legal marker of being permanently
- single
-• Indicators of transition to singlehood (life-long single)
- - passing certain marriageable age: differences
- for men and women
-- family obligations (e.g., elder care)
-Gay & Lesbian Singles in Mid & Later Life
-• Hard to know numbers: unknown numbers in closet
-• Age x gender x sexual orientation → isolation of old gays
-(especially; youth culture) and lesbians
-• Fewer people → difficulty of finding a partner
-• Old gay men more likely not to have a partner & to live
-alone than old straight men & than lesbians (isolation)
-To Sum up….
-Pay attention to cohort differences (who stays single and why?)
-Changing contexts of being single (may have partners, children)
-Impact of structured social relations in experience of being
-single (e.g., age, gender, class, race/ethnicity, sexual orientation)
-Countering stereotypes: older singles can have meaningful lives
-(through negotiation of ties)
-Single life negotiated over a lifetime.
-Back to the beginning: What is a single person? Answer affects
-how research results should be interpreted.
-Falling Marriage Rate: The UK Trend
-https://www.youtube.com/watch?v=jPbJinqmQuM
-Why are Fewer Americans Getting Married?
-https://www.youtube.com/watch?v=8djXpoTl200&t=8s
-Theory application paper due this Friday, Feb 10 by 5:00pm.
-
-Please submit it to the Assignment tab on OWL.
-Midterm Information
-• Date: Tuesday, February 14
-• Availability: 9:00am – 11:55pm
-• Duration: 2 hours
-• Access: Online (OWL – Tests & Quizzes)
-• Format: Open Book
-• Value: 25%
-• Format: 67 MC questions
-• Use your lecture slides and notes as your preparation material!
-• Exam Review Sheet & Sample MC Questions (on OWL)
-* No class on the evening of February 14 *
-Exploring Intergenerational
-Relations: Theoretical
-Framework
-Dr. Lin
-What are Intergenerational Relationships
- The relationship dynamics between parents and
-children or grandparents and grandchildren
- Key unit of analysis in studies of family ties and
-aging (suggesting linked lives)
-Review
-Components of a sound theoretical framework:
- Continuity and Change
- Multi-level (macro-meso-micro)
- Multi-faceted (life domains)
- Diversity & Inequality (intersecting
-structured social relations)
- Individual Agency in context
- Negotiated relationships
-Core components covered by combining three key
-theoretical approaches:
- Life course
- Life stage and linked lives = core life course
-principles related to family ties
- Critical
- Theory & practice (advocacy)
- Micro level of individual lives (agency), meso level of
-social institutions & macro level of social structure
-(inequality).
- Relationships negotiated across the life course
- Social action can reproduce status quo or produce
-change
- Feminist
-Perspectives on Intergenerational Relations
-1. Solidarity perspective:
- Focuses on strength of intergenerational bonds
- Assumes an ideal family life characterized by
-solidarity (strong unity)
- Conflict is minimal and only examined at the
-interpersonal level but not socially structured
- implicit focus on individual adaptation (role
- conflict), not social change. (micro)
-2. Conflict Perspective
- Emphasis on problems & interpersonal conflict
-(e.g., caregiving burden, abuse, neglect of older
-parents)
- Vantage point usually from the adult child
- Micro-level not social structural level
-What’s missing?
- Solidarity perspective:
- descriptive, static view of family life, implicitly
- assumes status quo (little dynamics)
- Conflict perspective:
- focuses on interpersonal relations with older
-people that are problematic
- Need a concept that incorporates core
-components of both theoretical perspectives
- Basis for developing a concept of . . .
-Ambivalence
-Working out Contradictory Forces
-Bridging concept (mule = donkey & horse)
-Unpacking the complexity of Ambivalence…
-“The study of intergenerational relations [and other
-family relationships] must . . . address how social
-structural forces create contradictions and conflicts
-that are made manifest in the social interactions of
-family life and must be worked out in family
-members’ encounters with one another (Connidis,
-2010:140).
- “Sociological Ambivalence”
-How to work out sociological ambivalence?
-Ambivalence
- Applies at psychological/individual (micro) and
-sociological/social (macro & meso) levels
- Contradictions in family relationships and social life
- Co-existence of solidarity and conflict due to
-structured social forces
- Sociological ambivalence links contradictions,
-conflicts & inequality of social structure (macro) to
-social institutions (meso) and to relationships with
-family members (micro)
- Reciprocal links between internal family dynamics
-and structured social world in which they occur
-Ambivalence
- Working out/reduce ambivalence (exercise agency) in
-family relations
- Ongoing contradictions of social life make negotiation an
-ongoing feature of family ties (dynamic).
- Outcome of negotiations may be harmony, conflict,
-estrangement, ambivalence . . . at a particular point in
-time (continuity & change).
- Negotiating ambivalence may support current ways of
-doing family or create new ways (change).
- Ambivalence brings together core ideas of main
-theoretical perspectives in attention to
- contradictions of relationships that are negotiated by
-individuals attempting to exercise agency Micro
- in the context of social institutions (e.g., family, work)
-Meso
- in the context of variable opportunities and constraints
-based on combination of social statuses (structured
-social relations) Macro
-Consider how theoretical ideas apply to what you learn
-about various family ties.
-Example: Doctoral Thesis (Lin, 2013)
- Case Study on the Recruitment of Foreign Migrant
-Domestic Care Workers in Taiwan
- Macro: family/gender norms (structured social relations) Meso: work-family conflict (social institutions)
- Micro: contradictions (role strain)
- ‘Outsourcing family elder care through the hiring of a
- migrant worker’ (exercise agency)
-
-Intergenerational Ties of Older Gay and Lesbian Persons
- Coming out = ambivalent situation for old
- Younger gay/lesbian couples may use artificial insemination,
-adoption . . . to become ‘parents’ together
-(socially constructed ambivalent parenthood)
- Socially ambivalent situation of same-sex couples who cannot
-marry legally (true for old)
- Old gay/lesbian parents usually have children from straight
-marriage
- Reverberating ambivalence as family members decide whether
-to ‘come out’ about their parents/grandparents
-Intergenerational Ties of Older Gay & Lesbian Persons
-Majority of middle-aged older gay men & lesbians (50+) are out to
- their family of origin, to siblings more than to parents (ethnicity)
-In U.S. baby boom LGBT sample
-Majority have close ties to family of origin
-Two-thirds of British sample of gay men & women 50+ consider ties
- with family of origin important
-Intergenerational Ties of Older Gay & Lesbian Persons
- Significant variations, e.g., based on race:
-“I didn’t come out to my sisters and mother as a Latino gay man
-until after my father died 15 years ago. As I expected, they were
-very understanding and accepting. I was, after all, the overachieving first born and the major success story of our
-dysfunctional working-class Chicano family. . . . My . . . success
-insulated me from the hostility faced by most gay men who come
-out in communities of color.”
-(Almaguer, 2005, p. 17; emphasis added)
- E.g., based on the intersection of class & race:
-2012 study of mostly white, well-off LGBT adults aged 48 to 85
-years, nearly two-thirds report that their family of origin is
-extremely or very accepting of their life as an LGBT person.
-(Croghan, Moone, & Olson, 2014)
-Parent-Child Ties (US, Canada)
-Contact with adult children
- Most seniors have 1 child nearby and see at least 1
-regularly
- Geographical proximity associated with
- Propensity of older parents to move nearer adult
-children if help needed
- ambivalent feelings of desire and fear
- requires re-negotiating relationships
- Should study multiple points of view (parents &
-children)
-Nature of parent-child ties in later life
- Older parents serve cohesive function
- Common themes of parenting in old age:
- Dreams for children
- Value independence
- Parenting not central to identity
- More “hands-off” approach to parenting
-“be there, should the children need me” (supporting role,
-avoiding intervention)
- Children as confidants (reciprocal ties)
--seeking and giving advice
- Tensions & conflicts negotiated over time
- Desire to resolve problematic relationships in family
- Variability in ties with children/children-in-law
- Favour some children over others
- May have positive ties with some children and
-ambivalent or poor ties with others
- Recent work proposes ambivalence embedded in
-the family structure
- exists when parents feel differently about their
- children and children-in-law
- working out various relationships over time
-Support Exchanges
-Between Older Parents
-and Their Children
-Dr. Lin
-4 models of social support
-Hierarchicalcompensatory
- Hierarchy of favoured
-relationships
- Spouse
- Children
- If preferred missing,
-replacement from the
-lower ranks occurs
- Those without
-spouse/children (bias)
-Task Specificity
- Focuses on tasks and their
-features, NOT particular
-relationships
- Introduces need for
-diversity in network
-Models of Social Support cont’d
- Hierarchical-Compensatory and Task
-Specificity:
-Fixed view of relationships and social support
-networks
-Based on normative assumptions
-H.C. focuses on nuclear family, excluding
-those without spouse/children
-Structural-functionalist perspective
-Models of Social Support cont’d
-Functional Specificity
- Particular relationships can
-be negotiated in different
-ways
- (e.g. sister helpful for
-some but not for others)
- A relationship may serve
-many functions
- Particular functions NOT tied
-to particular relationships
- Diversity
- Negotiation
-Convoy (Antonucci)
- Supportive network of ties
-based on support
-exchange
- Changes as needs change
-or membership change
- Different ties may be
-significant at different
-times (e.g. sibs) in life
-course
- Continuity and Change
- Dynamic
- Putting functional specificity and convoy models
-together:
-Social support networks
- are negotiated over time
- respond to shifting exchanges/needs and
-membership
-Same relationship may be negotiated
- in different ways
- by different people
- at different times
-Janet Finch (1989)
- To understand social support in families must
-combine influence of
-culture (macro)
-social structure (macro)
-family history (life course)
-individual preferences (micro)
- The intersection perspective
-Legitimate Excuses (Finch, 1989)
- Family division of care work
- Socially acceptable reasons for avoiding
-obligations to family members
- Typically seen in adult children who have
-good relationships with their siblings
- Family ties and negotiation of ‘fairness’
-Adult Children Support to Older Parents
- Most care provided by family
- Support does not necessarily = care
- Research problems
-Variable samples
-Variable definitions of ‘need’ (context)
-Cross-sectional studies vs. longitudinal
-Focus on primary caregiver vs. others
-Gender bias (focus on support by women)
-Pathways to Caring by Adult Children
- Gender difference: daughters > sons
- (exception: son-only families or daughters living far away)
- Employment difference: unemployed > employed
- Combined (G & E): employed women > employed men
- (helpers not primary caregivers)
- Care by more than one person / large family network
-(norm), but note the exception (single, unmarried)
-Pathways to Caring by Adult Children
- Strong support from adult children who value the norm of
-filial responsibility (a person’s sense of duty towards
-members of their own family in particular the child-parent
-obligation)
- Co-residing adult child (living arrangement)
- Strong support from those with emotionally close bonds
-with parents (family history)
- However, previous conflict between the younger and
-older generation does NOT necessarily stop their current
-support exchanges
-Support & family dynamics over the life course
-After my parents’ divorce, my aunt raised us. We weren’t close
-to her when we were young, but as we got older, we realized
-that she was always concerned about us even though she could
-be hard to get along with… She would lose her temper easily
-and make everything a big deal, so I didn’t have a happy
-childhood. After we grew up, we moved out, but I realized that
-she might feel lonely, so I’d come home quite often and keep her
-company. When she needed anything, I bought it for her. My
-brothers also came home during the holidays. Now she is
-paralyzed, and we feel obligated to care for her. Since she got
-sick, we all moved back here. It’d be easier to take care of her
-when we have more people around. (Miss Feng, 36 years old)
-Key points
- Gender comparison
- Employment status
- Marital status
- Types of care (intense vs. non-intense)
- Geographical proximity
- The interplay of gender, marital status and work
-conditions
-Caring cont’d
- Children become carers:
- ‘De facto’ (no one else available as a fact)
- Following family meetings
--someone emerges as a primary caregiver, others
- as secondary caregivers
- Shared care responsibilities among siblings
-(relatively equal division)
- Chosen by parents (personal preference)
--gender, family history, emotional attachment
- Child volunteers (least frequent)
--may be more common in Asian societies
--Filial Piety (‘Xiao Dao’- Filial Obligation)
- Sandwich caregiving vs. serial caregiving
--life course, intergenerational exchanges of
- support
- Sons as carers
- Men in sons-only families deal directly with parents,
-not each other and encourage independence
- Labour force Participation and caring:
- Paid work (full or part-time)  different style of caring
-Work-Life Balance (competing demands) –
-ambivalence
- Gender differences
-Consequences of Caring:
- Parents have less power (a sense of guilt)
- Children often view caring as delayed reciprocity
- Expectation of care from children
- (collectivist)
- v.s.
- Self reliance/independence
- (individualist)
- Cultural differences (Asian vs. Scandinavian)
-Conseqs cont’d
- For children, costs offset by meaning assigned
-to caring for a loved one (compensation)
- Emotion work of caring often ignored
- Stress, lower well-being most likely
-among daughters (caregiving burden)
-when parent is cognitively impaired/has
-behavioural problems – more so for sons
-“…all things being equal, men and women do not
-differ substantially in their experience of emotional
-strain. But all things are not equal…on balance, the
-social construction of gender (macro) in the family and
-workplace (meso) creates different caregiving
-conditions for men and women (micro as individual
-caregivers)…The fact that caring is considered
-normative for women does not remove the feeling of
-ambivalence that results from meeting this
-obligation…” (Connidis, 2010:168)
-Parental Support to Adult Children
- Emotional and financial
- $ based on need
- Consider impact of recession
- Support exchanges remain balanced until
-parents 70+; drops markedly after 75 (LC and
-aging)
- Extensive support if child has
- AIDS
- disabilities
-Co-residence of Adult Children & Older
-Parents
- More often due to children living with parents
-(re-filling the empty nest)
-Parents give more
-Both generations generally satisfied
- Likelihood of parents living with children greater
-when parents 75 (women) or 80 + (men)
-works better when parents can contribute
-(requires negotiation)
-Co-residence of Adult Children & Older
-Parents
- Intergenerational exchange (mutual benefits)
- Ambivalence of sharing a home (co-existing
-strain & emotional attachment between older
-parents and their children)
-In sum
- Ample evidence of active intergenerational support
-between adult children and older parents
- In our culture, both generations favour independence
- For most of lifetime, parents give more than they
-receive; serious health declines tip the balance
- Parents and children responsive to one another’s
-needs and help accordingly
- Multi-level analysis on ambivalence 
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href = "https://twitter.com/velpcode/"
+              class = "social__link click"
+              target ="_blank"
+              >
+            <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a onclick="alertNotification()" class="social__link click cursor__hover">
+              <i class="fa-solid fa-file-lines"></i>
+            </a>
+          </div>
+        </div>
+        <img src="./assets/AmanHab.png" class="header__me--photo" />
+      </header>
+      <button class="mail__button click" onclick="toggleModal()">
+        <a href="#" class="mail__button--link">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+      <div class="modal">
+        <div class="modal__half modal__about">
+          <h3 class="modal__title modal__title--about">
+            Here's a bit about me
+          </h3>
+          <h4 class="modal__sub-title modal__sub-title--about text--blue">
+            Frontend Developer
+          </h4>
+          
+          <div class="mode__para--container">
+            <p class="model__para">
+              Hello! My name is 
+              <span class="text--blue text--bold">Aman Velpula</span>, and I am a 20-year old university student
+              with a passion for
+              <span class="text--blue text--bold">development, fitness, and creating useful applications.</span>
+              <br />
+              I am currently pursuing a degree in computer science and have gained a strong understanding of various
+              <span class="text--blue text--bold">programming languages</span> and
+              <span class="text--blue text--bold">technologies</span> throughout my studies. My passion for development has led me to work on
+              various projects and hone my skills in 
+              <span class="text--blue text--bold">software development</span>
+              and
+              <span class="text--blue text--bold">problem solving.</span>
+              In addition for my love for development, I am also an avid 
+              <span class="text--blue text--bold">fitness/welness enthusiast.</span>
+              I believe that staying active and healthy not only improves my physical well-being, but also enhances my ability to focus and be productive in my work. I post a lot About
+              my fitness tips & development journey on my
+              <span class="text--blue text--bold"><a href = "https://twitter.com/velpcode">twitter.</a></span>
+              
+            </p>
+          </div>
+          <h3
+            class="modal__languages--title text--blue text--bold link__hover-effect2 link__hover-effect--blue"
+          >
+            Technologies I'm learning..
+          </h3>
+          <div class="modal__languages">
+            <figure class="modal__language--container">
+              <img src="./assets/HTML5.png" class="modal__language--img" />
+              <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/CSS.png" class="modal__language--img" />
+              <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/JS.png" class="modal__language--img" />
+              <span class="language__name">JavaScript</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/REACT.png" class="modal__language--img" />
+              <span class="language__name">React</span>
+            </figure>
+            <figure class="modal__language--container">
+              <img src="./assets/firebase.png" class="modal__language--img" />
+              <span class="language__name">Firebase</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal__half modal__contact">
+          <i
+            class="fa-solid fa-times modal__exit click"
+            onclick="toggleModal()"
+          ></i>
+          <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
+          <h4 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new work.
+          </h4>
+          <form id="contact__form" onsubmit="contact(event)">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="user_name" type="text" required />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="user_email" type="email" required />
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea
+                class="input message__area"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <button id="contact__submit" class="form__submit">
+              Send it my way!
+            </button>
+          </form>
+          <div class="modal__overlay modal__overlay--loading">
+            <i class="fa-solid fa-spinner"></i>
+          </div>
+          <div class="modal__overlay modal__overlay--succes">
+            <p class="overlay--succes__text">
+              Thanks for the message!
+              <br />
+              I'll be in contact with you soon!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/circle.svg" class="shape shape--0" />
+      <img src="./assets/triangle.svg" class="shape shape--1" />
+      <img src="./assets/semi_circle.svg" class="shape shape--2" />
+      <img src="./assets/semi_circle.svg" class="shape shape--3" />
+      <img src="./assets/squiggly.svg" class="shape shape--4" />
+      <img src="./assets/squiggly.svg" class="shape shape--5" />
+      <img src="./assets/circle.svg" class="shape shape--6" />
+      <img src="./assets/triangle.svg" class="shape shape--7" />
+      <img src="./assets/circle.svg" class="shape shape--8" />
+    </section>
+    
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="projects__title">
+            Here are some of my <span class="text--blue">Projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project first__project">
+              <div class="project__wrapper">
+                <img src="./assets/Velpflix2.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Velpflix</h3>
+                  <h4 class="project__description--sub-title">
+                    HTML, CSS, JS, OMDb API
+                  </h4>
+                  <p class="project__description--para">
+                    A Netflix replica app that uses OMDb API to display searched
+                    movie names.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/VelpCode/Velpflix"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpflix.netlify.app/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/treact.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">TReact Template</h3>
+                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <p class="project__description--para">
+                    A TReact replica app fully reactive on phones while having a
+                    slick design.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/velpcode/React-Template"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/React-Template/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/6.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">Online Fitness Personal Trainer Search</h3>
+                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <p class="project__description--para">
+                    A web application that helps you find personal trainers near you!
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/velpcode/Online-Fitness-PT-Filter"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/Online-Fitness-PT-Filter/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/librarywebsite.png" class="project__img" />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    E-Commerce Website (In-Progress)
+                  </h3>
+                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <p class="project__description--para">
+                    Reactive app that displays data about popular and
+                    recommended books.
+                  </p>
+                  <div class="project__description--links">
+                    <a
+                      class="project__description--link"
+                      href="https://github.com/velpcode/E-Commerce-Website"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                      class="project__description--link"
+                      href="https://velpcode.github.io/E-Commerce-Website/"
+                      target="_blank"
+                    >
+                      <i class="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure class="footer__logo--container">
+            <a href="#">
+              <img src="./assets/AV.svg" class="footer__logo--img" />
+            </a>
+          </figure>
+          <div class="footer__social--list">
+            <a
+              target="_blank"
+              href="https://github.com/velpcode"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Github</a
+            >
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/aman-velpula-9b8b3619b/"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              LinkedIn</a
+            >
+            <a 
+              target="_blank"
+              href = "https://www.twitter.com/velpcode/"
+              class = "footer__social--link link__hover-effect link__hover-effect--white"
+              >
+              Twitter</a
+              >
+            <a
+              href="#"
+              onclick="toggleModal()"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Contact</a
+            >
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2022 Alex Farkas</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- Project Done :) -->
