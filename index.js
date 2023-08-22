@@ -23,9 +23,9 @@ function contact() {
 }
 
 
-function toggleModal() {
-  document.body.classList.toggle("modal--open");
-}
+  function toggleModal() {
+    document.body.classList.toggle("modal--open");
+  }
 
 function darkTheme() {
   document.body.classList.toggle("darkTheme");
