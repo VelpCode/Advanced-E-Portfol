@@ -50,9 +50,14 @@
               >Projects</a
             >
           </li>
-          <li class ="nav__link" onclick = "toggleModal()">
-            <a href = "#" 
-            class = "nav__link--anchor link__hover-effect link__hover-effect--black">My Blog</a>
+          <li class="nav__link">
+            <a 
+              href="https://velpcode.hashnode.dev/"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              target="_blank"
+            >
+              My Blog
+            </a>
           </li>
           <li class="nav__link" onclick="toggleModal()">
             <a
@@ -136,7 +141,7 @@
           <div class="mode__para--container">
             <p class="model__para">
               Hello! My name is 
-              <span class="text--blue text--bold">Aman Velpula</span>, and I am a 20-year old university student
+              <span class="text--blue text--bold">Aman Velpula</span>, and I am a 21-year old university student
               with a passion for
               <span class="text--blue text--bold">development, design, fitness, and creating useful applications.</span>
               <br />
@@ -188,28 +193,9 @@
           <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
           <h4 class="modal__sub-title modal__sub-title--contact">
             I'm currently open to new work.
+            <br> <br>Please send me an email velpmail@gmail.com
+
           </h4>
-          <form id="contact__form" onsubmit="contact(event)">
-            <div class="form__item">
-              <label class="form__item--label">Name</label>
-              <input class="input" name="user_name" type="text" required />
-            </div>
-            <div class="form__item">
-              <label class="form__item--label">Email</label>
-              <input class="input" name="user_email" type="email" required />
-            </div>
-            <div class="form__item">
-              <label class="form__item--label">Message</label>
-              <textarea
-                class="input message__area"
-                name="message"
-                required
-              ></textarea>
-            </div>
-            <button id="contact__submit" class="form__submit">
-              Send it my way!
-            </button>
-          </form>
           <div class="modal__overlay modal__overlay--loading">
             <i class="fa-solid fa-spinner"></i>
           </div>
@@ -386,16 +372,15 @@
             </li>
             <li class="project">
               <div class="project__wrapper">
-                <img src="./assets/librarywebsite.png" class="project__img" />
+                <img src="./assets/SkillSlap2.png" class="project__img" />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
                   <h3 class="project__description--title">
-                    E-Commerce Website (In-Progress)
+                    SkillSlap - A skillset mastery WebApp. (WIP)
                   </h3>
-                  <h4 class="project__description--sub-title">HTML, CSS, JS</h4>
+                  <h4 class="project__description--sub-title">JS, Firebase, NodeJs, HTML, CSS, MongoDB</h4>
                   <p class="project__description--para">
-                    Reactive app that displays data about popular and
-                    recommended books.
+                    JavaScript web application that helps multipassionate individuals track multiple skills so they can get at their goals.
                   </p>
                   <div class="project__description--links">
                     <a
@@ -459,7 +444,7 @@
               Contact</a
             >
           </div>
-          <div class="footer__copyright">Copyright &copy; 2022 Alex Farkas</div>
+          <div class="footer__copyright">Copyright &copy; 2022 Aman Velp</div>
         </div>
       </div>
     </footer>
