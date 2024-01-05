@@ -1108,15 +1108,6 @@ footer .container {
 }
 
 
-.community-section {
-
-
-}
-
-.sec-section {
-  
-
-}
 
 .subhead {
 
@@ -1148,5 +1139,10 @@ footer .container {
   cursor: pointer;
   margin: 9px 10px;
 }
+
+.darkTheme, .ladooabout{
+  color: #fff;
+}
+
 
 /* Project Done :) */
