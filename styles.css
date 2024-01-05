@@ -44,7 +44,6 @@ h4,
 h5,
 h6,
 p {
-  cursor: default;
   z-index: 69;
 }
 
@@ -1106,6 +1105,48 @@ footer .container {
   .project__img {
     height: 180px;
   }
+}
+
+
+.community-section {
+
+
+}
+
+.sec-section {
+  
+
+}
+
+.subhead {
+
+  margin-left: 15%;
+  max-width: 70%;
+}
+
+.subhead-head {
+  max-width: 10px;
+}
+
+.underhash {
+  margin-top: 5px;
+}
+
+.descdesc {
+  border-top: 1px solid #888888;
+  margin-top: 10px;
+}
+
+.ladooabout {
+  margin-top: 25px;
+  
+}
+
+.ladoopart{
+  color: #333333;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 9px 10px;
 }
 
 /* Project Done :) */
