@@ -23,6 +23,8 @@ function contact() {
 }
 
 
+
+
   function toggleModal() {
     document.body.classList.toggle("modal--open");
   }
@@ -53,5 +55,5 @@ function moveBackground(event) {
 }
 
 function alertNotification() {
-  alert("Resume is still in progress.. @velpcode 😅")
+  alert("Feature still being built.. 😅")
 }
