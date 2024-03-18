@@ -121,14 +121,32 @@ p {
 
 .testone {
   background-color: white;
-  border: 1px solid lightgray;
   padding: 50px;
   border-radius: 7px;
   cursor: pointer;
   transition: transform 0.3s ease;
   flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
   max-width: calc(33.333% - 60px); /* Subtracting the gap */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+
+}
+.blogsec {
+  height: 250px;
+  width: 450px;
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.blogsec:hover {
+  transform: rotate(3deg)
+}
+
+.text--blued {
+  width: 300px;
+  
 }
 
 .testone:hover {
@@ -842,6 +860,25 @@ nav {
   position: relative;
 }
 
+.comsec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comdesc {
+  color: #888888;
+  max-width: 600px;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+}
+
+.projtitle{
+font-size: 40px;
+}
+
 .project {
   margin: 0px auto 120px auto;
   max-width: 900px;
@@ -1265,14 +1302,37 @@ footer .container {
 
 .ladooabout {
   margin-top: 25px;
-  
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+@media (min-width: 768px) {
+  .ladooabout {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for wider screens */
+  }
+}
+
+
+.community-section {
+
+  display: flex;
+  justify-content: center;
+
 }
 
 .ladoopart{
-  color: #333333;
-  font-size: 15px;
+  font-size: 12px;
   cursor: pointer;
   margin: 9px 10px;
+  transition: transform 0.5s ease; /* Smooth transition for the transform property */
+  color: gray !important;
+
+}
+
+.ladoopart:hover {
+  transform: rotate(2deg)
 }
 
 .darkTheme, .ladooabout{
