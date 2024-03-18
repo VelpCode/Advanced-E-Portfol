@@ -65,6 +65,99 @@ p {
   transform: rotate(0deg);
 }
 
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.desc {
+  font-size: 12px;
+  color: #333333;
+}
+
+.testimg {
+  height: 60px;
+  width: 60px;
+}
+
+.testimg2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 40px;
+}
+
+.namedetails {
+  margin-left: 5px;
+}
+
+.burger {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.verified {
+  height: 15px;
+  width: 15px;
+  margin-left: 2px;
+}
+
+.namesec {
+  display: flex;
+}
+
+.nameverif {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.testone {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 50px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+  max-width: calc(33.333% - 40px); /* Subtracting the gap */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testone:hover {
+  transform: scale(1.04);
+}
+
+.content {
+  font-size: smaller;
+  color: #888888;
+  margin-top: 10px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .testone {
+    max-width: calc(50% - 40px); /* Two columns for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .testone {
+    max-width: 100%; /* Single column for small screens */
+    padding: 15px;
+  }
+  .desc, .content {
+    font-size: smaller;
+  }
+}
+
 .title,
 .header__para,
 .nav__link--anchor,
@@ -971,7 +1064,7 @@ footer .container {
   }
 
   .scroll__icon {
-    transform: scale(2) !important;
+    display: none;
   }
 
   .project__wrapper {
@@ -1021,6 +1114,11 @@ footer .container {
     width: 100%;
     padding: 40px 40px;
   }
+
+  .scroll__icon {
+    display: none;
+  }
+
 
   .modal__about {
     z-index: 999;
@@ -1125,6 +1223,10 @@ footer .container {
   .project__wrapper:hover .project__description {
     transform: translateY(-50%) translateX(-50%);
   }
+
+  .scroll__icon {
+    display: none;
+  }
 }
 
 @media (max-width: 390px) {
@@ -1134,6 +1236,9 @@ footer .container {
 
   .project__img {
     height: 180px;
+  }
+  .scroll__icon {
+    display: none;
   }
 }
 
