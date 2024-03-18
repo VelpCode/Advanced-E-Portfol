@@ -129,7 +129,6 @@ p {
   max-width: calc(33.333% - 60px); /* Subtracting the gap */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
-
 }
 .blogsec {
   height: 250px;
@@ -1312,7 +1311,8 @@ footer .container {
   .ladooabout {
       grid-template-columns: repeat(2, 1fr); /* 2 columns for wider screens */
   }
-}
+
+
 
 
 .community-section {
@@ -1328,6 +1328,25 @@ footer .container {
   margin: 9px 10px;
   color: black !important;
 
+}
+
+@media (max-width: 768px) {
+  .blogsec {
+      width: 400px;
+      height: 200px;
+  }
+
+}
+  
+
+}
+
+@media (max-width: 500px) {
+  .blogsec {
+      width: 200px;
+      height: 100px;
+      display: flex;
+  }
 }
 
 .ladooparty {
