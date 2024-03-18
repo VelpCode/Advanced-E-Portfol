@@ -161,14 +161,14 @@ p {
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
   .testone {
-    max-width: calc(50% - 40px); /* Two columns for medium screens */
+    max-width: 80%; /* Two columns for medium screens */
   }
 }
 
 @media (max-width: 480px) {
   .testone {
-    max-width: 100%; /* Single column for small screens */
-    padding: 15px;
+    max-width: 70%; /* Single column for small screens */
+    padding: 45px;
   }
   .desc, .content {
     font-size: smaller;
@@ -884,6 +884,7 @@ font-size: 40px;
   z-index: 69;
 }
 
+
 .project__img {
   width: 100%;
   transition: all 450ms ease;
@@ -1125,6 +1126,8 @@ footer .container {
 }
 
 @media (max-width: 768px) {
+
+
   .message__area:focus .projects__title {
     z-index: -1;
   }
@@ -1137,6 +1140,11 @@ footer .container {
     flex-direction: column-reverse;
     border-radius: 0;
   }
+
+  #community {
+    padding: 50px;
+  }
+  
 
   .message__area:focus .first__project {
     margin-top: 300px !important;
