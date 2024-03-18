@@ -1234,6 +1234,10 @@ footer .container {
   ::-webkit-scrollbar-thumb {
     width: 0px;
   }
+  .modal__language--img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1335,7 +1339,6 @@ footer .container {
       width: 400px;
       height: 200px;
   }
-
 }
   
 
