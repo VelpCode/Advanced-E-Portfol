@@ -1326,14 +1326,18 @@ footer .container {
   font-size: 12px;
   cursor: pointer;
   margin: 9px 10px;
-  transition: transform 0.5s ease; /* Smooth transition for the transform property */
-  color: gray !important;
+  color: black !important;
 
 }
 
-.ladoopart:hover {
-  transform: rotate(2deg)
+.ladooparty {
+  font-size: 12px;
+  margin: 10px 10px;
+  max-width: 400px;
+  font-size: 10px;
+  color: #888888;
 }
+
 
 .darkTheme, .ladooabout{
   color: #fff;
