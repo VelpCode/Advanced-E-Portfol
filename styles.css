@@ -127,8 +127,8 @@ p {
   cursor: pointer;
   transition: transform 0.3s ease;
   flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
-  max-width: calc(33.333% - 40px); /* Subtracting the gap */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  max-width: calc(33.333% - 60px); /* Subtracting the gap */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .testone:hover {
