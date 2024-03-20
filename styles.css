@@ -122,7 +122,7 @@ p {
 }
 
 .testone {
-  background-color: white;
+  background-color: #fff;
   padding: 50px;
   border-radius: 7px;
   cursor: pointer;
@@ -1410,5 +1410,18 @@ footer .container {
   color: #fff;
 }
 
+
+.darkTheme .testone {
+  background-color: #000;
+}
+
+
+.darkTheme .desc {
+  color:white;
+}
+
+.darkTheme .ladoopart {
+  color: white;
+}
 
 /* Project Done :) */
