@@ -100,9 +100,11 @@ p {
 }
 
 .verified {
+  align-items: center;
   height: 15px;
   width: 15px;
   margin-left: 2px;
+  color:#0087cd
 }
 
 .namesec {
@@ -140,7 +142,7 @@ p {
 }
 
 .blogsec:hover {
-  transform: rotate(3deg)
+  transform: rotate(1deg)
 }
 
 .text--blued {
@@ -718,6 +720,24 @@ nav {
   gap: 10px;
 }
 
+.ladoomart {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-decoration: none;
+}
+
+.ladoodiff {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 .lodalthree {
 
   display: flex;
@@ -748,6 +768,8 @@ nav {
   flex-direction: column;
   position: relative;
 }
+
+
 
 .modal__language--img {
   width: 60px;
