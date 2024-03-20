@@ -675,7 +675,7 @@ nav {
   transform: translate(-50%, -50%);
   width: 90%;
   max-width: 1100px;
-  height: 700px;
+  height: 500px;
   border-radius: 50px;
   overflow: hidden;
   display: flex;
@@ -1390,12 +1390,23 @@ footer .container {
   color: #888888;
 }
 
+.darkTheme, .modal__title {
+  color: #000;
+}
+
+.darkTheme, .model__para {
+  color: #000;
+}
 
 .darkTheme, .ladooabout{
   color: #fff;
 }
 
 .darktheme, .next {
+  color: #fff;
+}
+
+.darkTheme, .modal__title--contact {
   color: #fff;
 }
 
